@@ -6,11 +6,11 @@
     flex-direction: column;
 
     .title {
-        font-size: 20px;
         background-color: colors.$brown;
+        font-family: values.$fontText;
         text-align: center;
+        font-size: 20px;
         min-height: 70px;
-        color:colors.$white;
     }
 
    .tableau {
