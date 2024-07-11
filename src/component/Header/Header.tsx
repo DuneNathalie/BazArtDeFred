@@ -1,10 +1,8 @@
 import React from 'react';
 
+import { ImMenu3 } from "react-icons/im";
 
 import styles from './Header.module.scss';
-
-import logo from "../../assets/logo/logo.png";
-
 
 const Header: React.FC = () => {
     const handlePopUp = () => {
@@ -17,7 +15,7 @@ const Header: React.FC = () => {
             <div className={styles.menu}>
                 <button onClick={handlePopUp}>
                     <h1>Menu</h1>
-                    <img src={logo} alt="Logo " />
+                    <ImMenu3 size={40}/>
                 </button>
             </div>
         </div>

@@ -7,10 +7,10 @@
     flex-direction: column;
 
     .title {
-        font-size: 20px;
         background-color: colors.$brown;
-        color:colors.$white;
+        font-family: values.$fontText;
         text-align: center;
+        font-size: 20px;
         min-height: 70px;
     }
     .mail{
@@ -21,6 +21,13 @@
             font-family: values.$fontContent;
             font-size: 1.3rem;
             text-align: center;
+        }
+
+        .icons {
+            display:flex;
+            justify-content: center;
+            gap:10px;
+            margin-bottom: 10px;
         }
     
 }
