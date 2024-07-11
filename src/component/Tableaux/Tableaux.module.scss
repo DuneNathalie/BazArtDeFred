@@ -1,0 +1,57 @@
+@use '../../styles/colors';
+@use '../../styles/values';
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-size: 20px;
+        background-color: colors.$brown;
+        text-align: center;
+        min-height: 70px;
+        color:colors.$white;
+    }
+
+   .tableau {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+
+    .image {
+        width: 200px;
+        height: auto;
+        border-radius: 5px;
+        cursor: zoom-in;
+        
+        img{
+            box-shadow: 5px 4px 13px -2px rgb(37, 39, 18);
+
+        }
+      }
+      
+
+    .name{
+        text-align: center;
+        font-weight: bold;
+    }
+    .size{
+        text-align: center;
+    }
+   }
+
+   .text{
+    font-family: values.$fontContent;
+    font-size: 1.3rem;
+    text-align: start;
+    padding: 0 15px;
+   }
+
+   .textnext {
+    font-family: values.$fontContent;
+    font-size: 1.3rem;
+    text-align: center;
+   }
+}

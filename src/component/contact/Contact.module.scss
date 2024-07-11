@@ -1,0 +1,26 @@
+@use '../../styles/colors';
+@use '../../styles/values';
+
+.container {
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        font-size: 20px;
+        background-color: colors.$brown;
+        color:colors.$white;
+        text-align: center;
+        min-height: 70px;
+    }
+    .mail{
+        text-align: center;
+        font-weight: bold;  
+        }
+        .text {
+            font-family: values.$fontContent;
+            font-size: 1.3rem;
+            text-align: center;
+        }
+    
+}

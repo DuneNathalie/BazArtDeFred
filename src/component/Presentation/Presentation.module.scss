@@ -1,0 +1,50 @@
+@use '../../styles/colors';
+@use '../../styles/values';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: colors.$brownDark;
+
+    .title {
+        font-size: 20px;
+        background-color: colors.$green;
+        font-family: values.$fontText;
+        text-align: center;
+        min-height: 70px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin:0 20px 0 20px;
+
+        .imageContainer {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 23%;
+            
+            .image {
+                max-width: 80%;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+                border-radius: 5px;
+                margin-top: -20px;
+                margin-bottom: 20px;
+                box-shadow: 5px 4px 13px -2px rgba(0,0,0,0.97);
+            }
+        }
+
+        .text {
+            flex: 2;
+            margin: auto;
+            margin-left: 30px;
+            font-family: values.$fontContent;
+            font-size: 1.3rem;
+        }
+    }
+}

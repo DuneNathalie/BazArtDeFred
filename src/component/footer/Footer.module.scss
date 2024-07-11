@@ -1,0 +1,9 @@
+@use'../../styles/colors';
+.container {
+    border-color: chartreuse;
+    background-color: colors.$green;
+    color:#FFFF;
+    text-align: center;
+    padding: 5px;
+    font-size: 10px;
+}
