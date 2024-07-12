@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e290fdb2.css",
+    "main.js": "/static/js/main.dcf5d531.js",
+    "static/media/Effusion.jpg": "/static/media/Effusion.a4c678a589062c6492c4.jpg",
+    "static/media/Substance.jpg": "/static/media/Substance.8bd92d9f545bd0718cda.jpg",
+    "static/media/No_Way.jpg": "/static/media/No_Way.49d31ca6aa09bd00f990.jpg",
+    "static/media/Mouvement_vers_Soi_40_100.jpg": "/static/media/Mouvement_vers_Soi_40_100.e3b3a030d39772b32534.jpg",
+    "static/media/Effusion_40_50.jpg": "/static/media/Effusion_40_50.378ae181a00cda2d8b94.jpg",
+    "static/media/Chemin_vers_l_or.jpg": "/static/media/Chemin_vers_l_or.b988bf7bb84e465c98d7.jpg",
+    "static/media/Substance_60_80.jpg": "/static/media/Substance_60_80.0eebe40ca5d3fba4ec51.jpg",
+    "static/media/Hybride.jpg": "/static/media/Hybride.820a621b7f0916788768.jpg",
+    "static/media/background_image.jpg": "/static/media/background_image.ddd1c00ff8f6d663557b.jpg",
+    "static/media/Trucolu.jpg": "/static/media/Trucolu.12676e080f8d5b96209f.jpg",
+    "static/media/Eclats_d_Âme.jpg": "/static/media/Eclats_d_Âme.c0c7d8efe76b24f317f5.jpg",
+    "static/media/Eclats_d_Âme_50_60.jpg": "/static/media/Eclats_d_Âme_50_60.2d82063b1b37e0aca64b.jpg",
+    "static/media/Ôde_a_la_Vie_50_70.jpg": "/static/media/Ôde_a_la_Vie_50_70.730c0f0242cc363410c7.jpg",
+    "static/media/BalaiAquatiqueBis.jpg": "/static/media/BalaiAquatiqueBis.fcb8c4aa4f6f2cdc1162.jpg",
+    "static/media/author.jpg": "/static/media/author.2e2fbdb383ba7ca0c7f1.jpg",
+    "static/media/Trucolu_50_70.jpg": "/static/media/Trucolu_50_70.61072a3a90c80fb49381.jpg",
+    "static/media/Hybride_30_30.jpg": "/static/media/Hybride_30_30.cd753035f27b6e4528e5.jpg",
+    "static/media/BalaiAquatique.jpg": "/static/media/BalaiAquatique.cd204bf0b9ed277b7162.jpg",
+    "static/media/No_Way_50_50.jpg": "/static/media/No_Way_50_50.d59f9b68ddc7ba4cc911.jpg",
+    "static/media/Chemin_vers_l_or_50_70.jpg": "/static/media/Chemin_vers_l_or_50_70.827b2650d196d8d59107.jpg",
+    "static/media/Ôde_a_la_Vie.jpg": "/static/media/Ôde_a_la_Vie.ad9821be20c2083b4762.jpg",
+    "static/media/Mouvement_vers_Soi.jpg": "/static/media/Mouvement_vers_Soi.fd953ff6a52d910e0fcf.jpg",
+    "static/media/Bien_VenueBis.jpg": "/static/media/Bien_VenueBis.d0b51e7f55e3c28bdb3c.jpg",
+    "static/media/Madinina_60_200.jpg": "/static/media/Madinina_60_200.395fdc725213002ced16.jpg",
+    "static/media/Bien_Venue.jpg": "/static/media/Bien_Venue.9b6326b9968291ba43e7.jpg",
+    "index.html": "/index.html",
+    "main.e290fdb2.css.map": "/static/css/main.e290fdb2.css.map",
+    "main.dcf5d531.js.map": "/static/js/main.dcf5d531.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e290fdb2.css",
+    "static/js/main.dcf5d531.js"
+  ]
+}

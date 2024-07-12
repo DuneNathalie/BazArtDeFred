@@ -3,6 +3,7 @@ import React from 'react';
 import styles from './Tableaux.module.scss';
 
 import Dummy_Data_tableau from "../../DummyData/DumyDataTableaux.js";
+
 import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css';
 
