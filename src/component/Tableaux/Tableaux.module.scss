@@ -6,11 +6,12 @@
     flex-direction: column;
 
     .title {
-        font-size: 20px;
         background-color: colors.$brown;
+        font-family: values.$fontText;
         text-align: center;
+        font-size: 20px;
         min-height: 70px;
-        color:colors.$white;
+        font-weight: 400;
     }
 
    .tableau {
@@ -39,19 +40,44 @@
     }
     .size{
         text-align: center;
+        margin-Top: -15px;
     }
    }
 
    .text{
     font-family: values.$fontContent;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: start;
     padding: 0 15px;
    }
 
    .textnext {
     font-family: values.$fontContent;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: center;
    }
+
+   @media screen and (max-width: 768px) {      
+    .tableau {
+        margin-top: 30px;
+        gap:30px;
+
+        .image {
+            max-width: 250px;
+            height: auto;
+            
+          }
+    }  
+    .content {
+        margin:auto;
+        .text {
+            margin: 0 15px 0 15px;
+        }
+}
+}
+
+
+@media screen and (max-width: 480px) {
+    
+}
 }
