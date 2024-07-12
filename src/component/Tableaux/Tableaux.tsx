@@ -12,7 +12,7 @@ const Tableau: React.FC = () => {
     return (
         <div className={styles.container}>
             <div className={styles.title}>
-                <p>La galerie d'Art</p>
+                <p>LA GALERIE D'ART</p>
             </div>
             <div className={styles.tableau}>
                 {Dummy_Data_tableau.map((item) => (
@@ -27,6 +27,7 @@ const Tableau: React.FC = () => {
                     </div>
                 ))}
             </div>
+                <div className={styles.content}>
             <div className={styles.text}>
                 <p>Tous mes tableaux ont une histoire, j'espère que ces histoires vous parleront.
                     Je serai heureuse de créer votre propre toile avec vos souvenirs, votre histoire  ( sable, coquillages, graines, feuilles ... Quelques fleurs de votre bouquet de mariage ... )<br/>
@@ -34,6 +35,8 @@ const Tableau: React.FC = () => {
             </div>
             <div className={styles.textnext}>
                 <p>Bientôt des ateliers et stages seront proposés, à suivre ... 😉</p>
+            </div>
+            <div/>
             </div>
         </div>
     );
