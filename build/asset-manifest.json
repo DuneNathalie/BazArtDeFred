@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e290fdb2.css",
-    "main.js": "/static/js/main.dcf5d531.js",
+    "main.js": "/static/js/main.a0405654.js",
     "static/media/Effusion.jpg": "/static/media/Effusion.a4c678a589062c6492c4.jpg",
     "static/media/Substance.jpg": "/static/media/Substance.8bd92d9f545bd0718cda.jpg",
     "static/media/No_Way.jpg": "/static/media/No_Way.49d31ca6aa09bd00f990.jpg",
@@ -29,10 +29,10 @@
     "static/media/Bien_Venue.jpg": "/static/media/Bien_Venue.9b6326b9968291ba43e7.jpg",
     "index.html": "/index.html",
     "main.e290fdb2.css.map": "/static/css/main.e290fdb2.css.map",
-    "main.dcf5d531.js.map": "/static/js/main.dcf5d531.js.map"
+    "main.a0405654.js.map": "/static/js/main.a0405654.js.map"
   },
   "entrypoints": [
     "static/css/main.e290fdb2.css",
-    "static/js/main.dcf5d531.js"
+    "static/js/main.a0405654.js"
   ]
 }
