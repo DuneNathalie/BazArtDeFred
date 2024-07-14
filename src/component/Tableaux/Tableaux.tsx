@@ -9,7 +9,6 @@ import 'react-medium-image-zoom/dist/styles.css';
 
 
 const Tableau: React.FC = () => {
-
     return (
         <div className={styles.container}>
             <div className={styles.title}>
