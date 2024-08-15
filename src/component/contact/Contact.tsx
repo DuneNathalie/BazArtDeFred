@@ -19,9 +19,10 @@ const Contact: React.FC = () => {
                 </div>
             </div>
             <div className={styles.icons}>
-                <a href="https://www.facebook.com/profile.php?id=61562185179978" className={styles.link_faceboock}>
-                    <FaFacebook color={"#252712"} size={30} /></a>
-                <a href="https://www.instagram.com/bazartdefred/" className={styles.link_inst}>
+                <a href="https://www.facebook.com/profile.php?id=61562185179978" rel="noopener noreferrer" className={styles.link_facebook} aria-label="Facebook">
+                    <FaFacebook color={"#252712"} size={30} />
+                </a>
+                <a href="https://www.instagram.com/bazartdefred/" rel="noopener noreferrer" className={styles.link_inst} aria-label="Instagram">
                     <FaSquareInstagram color={"#252712"} size={30} />
                 </a>
             </div>
